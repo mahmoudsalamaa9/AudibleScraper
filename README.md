@@ -20,13 +20,22 @@ Supports headless mode (runs without opening a browser window)
 Handles pagination automatically
 
 
-How to Run
+
+Project Structure:
+AudibleScraper/
+│── audible_scraper.py     # main scraper script
+│── requirements.txt       # dependencies
+│── README.md              # project overview
+│── .gitignore             # ignore venv, cache, CSV files
+
+
+How to Run:
 1.Clone the repo:
-git clone https://github.com//AudibleScraper.git
-cd AudibleScraper
+git clone https://github.com/mahmoudsalamaa9/AudibleScraper
 
 2.Install dependencies:
 pip install -r requirements.txt
 
 3.Run the scraper:
 python audible_scraper.py
+This will generate a books.csv file with the scraped data.
